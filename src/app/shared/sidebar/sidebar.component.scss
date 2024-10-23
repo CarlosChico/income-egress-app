@@ -1,0 +1,9 @@
+.nav {
+  flex-direction: column !important;
+  .nav-item {
+    &:hover {
+      color: red;
+      cursor: pointer;
+    }
+  }
+}
